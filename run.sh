@@ -1,4 +1,4 @@
 #!/bin/sh
 
-chown squid:squid /dev/stdout
-exec squid -N
+chown proxy:proxy /dev/stdout
+exec squid3 -N
